@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="../node_modules/semantic-ui-css/semantic.min.css">
+    <link rel="stylesheet" href="./feedback.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="ui form" style="padding:10px;margin-bottom: 5px;">
+            <textarea placeholder="Tell us more" rows="3" style="min-height:120px;"></textarea>
+        </form>
+        <div class="ui buttons right floated" style="margin-right: 10px;">
+            <button id="cancel" class="ui button">Cancel</button>
+            <div class="or"></div>
+            <button class="ui positive button">Save</button>
+        </div>
+    </div>
+    <script>
+        require('./feedback.js') 
+    </script>
+</body>
+
+</html>

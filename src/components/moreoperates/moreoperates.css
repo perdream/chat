@@ -1,0 +1,12 @@
+.operates-container{
+    margin-top: 25px;
+    cursor: pointer;
+}
+.card-style{
+    background-color: black !important;
+    opacity: .7;
+}
+.card-header{
+    color: white !important;
+    cursor: pointer;
+}
